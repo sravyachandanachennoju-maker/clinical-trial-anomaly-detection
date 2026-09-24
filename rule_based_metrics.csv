@@ -1,2 +1,0 @@
-total_records,total_flagged,true_positives,false_positives,true_negatives,false_negatives,precision,recall,f1_score
-3000,112,100,12,2838,50,0.8928571428571429,0.6666666666666666,0.7633587786259542

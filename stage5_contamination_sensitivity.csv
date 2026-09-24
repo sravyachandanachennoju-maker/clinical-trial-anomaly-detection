@@ -1,4 +1,0 @@
-contamination,tp,fp,tn,fn,precision,recall,f1,specificity,primary_setting,selection_note
-0.05,12,12,558,18,0.5,0.4,0.4444444444444444,0.9789473684210528,False,Sensitivity analysis setting; not used to select the primary setting.
-0.08,14,28,542,16,0.3333333333333333,0.4666666666666667,0.3888888888888889,0.950877192982456,True,Primary setting retained from exploratory Stage 4 for continuity; not selected using held-out labels or F1.
-0.1,14,43,527,16,0.2456140350877192,0.4666666666666667,0.3218390804597701,0.924561403508772,False,Sensitivity analysis setting; not used to select the primary setting.
