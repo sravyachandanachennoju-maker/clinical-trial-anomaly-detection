@@ -1,0 +1,12 @@
+rule_id,category,description,threshold_or_logic,rationale
+R01,Missing-data,Required laboratory value is missing,"Any ALT, AST, hemoglobin, or creatinine is missing",Required clinical measurements should be complete or explicitly managed.
+R02,Laboratory-value,ALT outside broad plausibility range,ALT < 5 or ALT > 150 U/L,"Extremely unusual values warrant review for transcription, unit, or entry errors."
+R03,Laboratory-value,AST outside broad plausibility range,AST < 5 or AST > 150 U/L,"Broad threshold is a review trigger, not a clinical diagnosis."
+R04,Laboratory-value,Hemoglobin outside broad plausibility range,Hemoglobin < 7 or > 20 g/dL,Extreme values can indicate entry or unit problems.
+R05,Laboratory-value,Creatinine outside broad plausibility range,Creatinine < 0.2 or > 3.0 mg/dL,Very unusual values can merit data review.
+R06,Date/timeliness,Data entry occurs before visit,data_entry_date < visit_date,This is temporally inconsistent in the simplified study database.
+R07,Date/timeliness,Excessive data-entry delay,data_entry_delay > 21 days,Long delays may indicate delayed capture or site follow-up needs.
+R08,Visit-sequence,Invalid visit number,visit_number outside 1..5,The synthetic protocol defines five scheduled visits.
+R09,Duplicate detection,Duplicate clinical record,Duplicate patient_id + visit_number + visit_date + treatment_arm,Repeated records for the same participant/visit can indicate duplicate entry.
+R10,Cross-field consistency,Stored delay disagrees with dates,data_entry_delay != date-derived delay,Derived fields should agree with their source dates.
+R11,Cross-field consistency,Jointly high ALT and AST,ALT > 120 AND AST > 120,A joint extreme profile can trigger review without making the rule perfectly match injections.

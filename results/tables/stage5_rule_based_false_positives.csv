@@ -1,0 +1,3 @@
+record_id,ground_truth_category,ground_truth_types,age,visit_number,data_entry_delay,ALT,AST,hemoglobin,creatinine,query_count,protocol_deviation,ALT_missing,AST_missing,hemoglobin_missing,creatinine_missing,anomaly_score,rule_based_anomaly,isolation_forest_flag
+R01939,normal,none,52.3,4,1,31.3,27.8,13.5,0.65,3,0,0,0,0,0,-0.1128117901308389,1,0
+R02897,normal,none,45.3,2,3,17.1,12.6,11.0,0.59,1,0,0,0,0,0,-0.0830932762399715,1,0

@@ -1,0 +1,6 @@
+Subtype,N,Rule-Based Recall,Isolation Forest Recall,Rule Detected,IF Detected
+excessive_entry_delay,5,1.0,0.2,5,1
+date_plus_queries,4,1.0,0.5,4,2
+visit_lab_query_pattern,4,0.0,0.75,0,3
+date_inconsistency,3,1.0,0.0,3,0
+query_delay_site_pattern,3,0.0,0.0,0,0

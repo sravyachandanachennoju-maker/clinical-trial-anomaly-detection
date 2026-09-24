@@ -1,0 +1,5 @@
+Overlap Category,Records,True Anomalies,True Anomalies Rule-Only,True Anomalies IF-Only
+both_methods_detected,8,8,0,0
+rule_based_only,14,12,12,0
+isolation_forest_only,34,6,0,6
+neither,544,4,0,0

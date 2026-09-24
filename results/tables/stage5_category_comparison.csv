@@ -1,0 +1,4 @@
+Category,Rule-Based Recall,Isolation Forest Recall,N,Rule Detected,IF Detected
+rule_detectable,1.0,0.16666666666666666,12,12,2
+ml_multivariate,0.0,0.6,10,0,6
+both_detectable,1.0,0.75,8,8,6

@@ -1,0 +1,12 @@
+rule_flag_column,records_flagged
+R01_missing_required_lab,36
+R06_entry_before_visit,30
+R09_duplicate_composite,24
+R07_excessive_entry_delay,22
+R02_ALT_extreme,0
+R03_AST_extreme,0
+R05_creatinine_extreme,0
+R04_hemoglobin_extreme,0
+R08_invalid_visit_number,0
+R10_delay_date_mismatch,0
+R11_joint_ALT_AST_high,0
