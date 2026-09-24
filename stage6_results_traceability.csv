@@ -1,0 +1,31 @@
+metric,value,source_file,calculation,evaluation_population
+Rule-Based TP,20,results/stage5_final_comparison.csv,Directly from Stage 5 confusion matrix,600 held-out evaluation records
+Rule-Based FP,2,results/stage5_final_comparison.csv,Directly from Stage 5 confusion matrix,600 held-out evaluation records
+Rule-Based TN,568,results/stage5_final_comparison.csv,Directly from Stage 5 confusion matrix,600 held-out evaluation records
+Rule-Based FN,10,results/stage5_final_comparison.csv,Directly from Stage 5 confusion matrix,600 held-out evaluation records
+Rule-Based Precision,0.9090909090909092,results/stage5_final_comparison.csv,TP / (TP + FP),600 held-out evaluation records
+Rule-Based Recall,0.6666666666666666,results/stage5_final_comparison.csv,TP / (TP + FN),600 held-out evaluation records
+Rule-Based F1,0.7692307692307692,results/stage5_final_comparison.csv,2 * Precision * Recall / (Precision + Recall),600 held-out evaluation records
+Rule-Based Specificity,0.9964912280701754,results/stage5_final_comparison.csv,TN / (TN + FP),600 held-out evaluation records
+Isolation Forest TP,14,results/stage5_final_comparison.csv,Directly from Stage 5 confusion matrix,600 held-out evaluation records
+Isolation Forest FP,28,results/stage5_final_comparison.csv,Directly from Stage 5 confusion matrix,600 held-out evaluation records
+Isolation Forest TN,542,results/stage5_final_comparison.csv,Directly from Stage 5 confusion matrix,600 held-out evaluation records
+Isolation Forest FN,16,results/stage5_final_comparison.csv,Directly from Stage 5 confusion matrix,600 held-out evaluation records
+Isolation Forest Precision,0.3333333333333333,results/stage5_final_comparison.csv,TP / (TP + FP),600 held-out evaluation records
+Isolation Forest Recall,0.4666666666666667,results/stage5_final_comparison.csv,TP / (TP + FN),600 held-out evaluation records
+Isolation Forest F1,0.3888888888888889,results/stage5_final_comparison.csv,2 * Precision * Recall / (Precision + Recall),600 held-out evaluation records
+Isolation Forest Specificity,0.950877192982456,results/stage5_final_comparison.csv,TN / (TN + FP),600 held-out evaluation records
+Category recall: rule_detectable Rule-Based,1.0,results/stage5_category_comparison.csv,Rule-detected anomalies / category total,600 held-out records; category n=12
+Category recall: rule_detectable Isolation Forest,0.1666666666666666,results/stage5_category_comparison.csv,IF-detected anomalies / category total,600 held-out records; category n=12
+Category recall: ml_multivariate Rule-Based,0.0,results/stage5_category_comparison.csv,Rule-detected anomalies / category total,600 held-out records; category n=10
+Category recall: ml_multivariate Isolation Forest,0.6,results/stage5_category_comparison.csv,IF-detected anomalies / category total,600 held-out records; category n=10
+Category recall: both_detectable Rule-Based,1.0,results/stage5_category_comparison.csv,Rule-detected anomalies / category total,600 held-out records; category n=8
+Category recall: both_detectable Isolation Forest,0.75,results/stage5_category_comparison.csv,IF-detected anomalies / category total,600 held-out records; category n=8
+Detection overlap: both_methods_detected,8,results/stage5_detection_overlap.csv,Count of records in the specified detection pattern,600 held-out evaluation records
+Detection overlap: rule_based_only,14,results/stage5_detection_overlap.csv,Count of records in the specified detection pattern,600 held-out evaluation records
+Detection overlap: isolation_forest_only,34,results/stage5_detection_overlap.csv,Count of records in the specified detection pattern,600 held-out evaluation records
+Detection overlap: neither,544,results/stage5_detection_overlap.csv,Count of records in the specified detection pattern,600 held-out evaluation records
+Rule-Based Precision 95% CI,"[0.721851, 0.974705]",results/stage5_confidence_intervals.csv,"Wilson score interval, 95%",600 held-out evaluation records
+Rule-Based Recall 95% CI,"[0.487801, 0.807695]",results/stage5_confidence_intervals.csv,"Wilson score interval, 95%",600 held-out evaluation records
+Isolation Forest Precision 95% CI,"[0.210125, 0.484475]",results/stage5_confidence_intervals.csv,"Wilson score interval, 95%",600 held-out evaluation records
+Isolation Forest Recall 95% CI,"[0.302324, 0.638577]",results/stage5_confidence_intervals.csv,"Wilson score interval, 95%",600 held-out evaluation records

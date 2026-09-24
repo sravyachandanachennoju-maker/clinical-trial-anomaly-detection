@@ -1,0 +1,4 @@
+ground_truth_category,records,flagged_by_rules,missed_by_rules
+rule_detectable,60,60,0
+ml_multivariate,50,0,50
+both_detectable,40,40,0

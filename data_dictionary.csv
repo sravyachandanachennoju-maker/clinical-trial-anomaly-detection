@@ -1,0 +1,24 @@
+variable,description,domain,ML_usage
+record_id,Synthetic record identifier,identifier,Excluded from ML
+patient_id,Synthetic participant identifier,identifier,Excluded from ML
+site_id,Synthetic study site,study structure,Categorical feature candidate
+visit_number,Protocol visit number,study structure,ML feature
+treatment_arm,Synthetic treatment assignment,study structure,One-hot encoded
+age,Synthetic participant age,demographic,ML feature
+sex,Synthetic participant sex,demographic,One-hot encoded
+visit_date,Synthetic visit date,timing,Used to derive timing features
+data_entry_date,Synthetic data-entry date,timing,Used to derive timing features
+data_entry_delay,Days between visit and entry,operations,ML feature
+ALT,Alanine aminotransferase,laboratory,ML feature
+AST,Aspartate aminotransferase,laboratory,ML feature
+hemoglobin,Hemoglobin concentration,laboratory,ML feature
+creatinine,Serum creatinine,laboratory,ML feature
+query_count,Number of data queries,operations,ML feature
+protocol_deviation,Synthetic protocol deviation indicator,operations,ML feature
+ALT_missing,ALT missingness indicator,data quality,ML feature
+AST_missing,AST missingness indicator,data quality,ML feature
+hemoglobin_missing,Hemoglobin missingness indicator,data quality,ML feature
+creatinine_missing,Creatinine missingness indicator,data quality,ML feature
+ground_truth_anomaly,Known injected anomaly label,evaluation,Excluded from ML
+ground_truth_category,Injection category,evaluation,Excluded from ML
+ground_truth_types,Injection mechanism,evaluation,Excluded from ML

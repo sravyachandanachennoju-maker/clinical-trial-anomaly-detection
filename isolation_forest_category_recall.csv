@@ -1,0 +1,4 @@
+ground_truth_category,records,detected,missed,recall
+rule_detectable,60,14,46,0.23333333333333334
+ml_multivariate,50,36,14,0.72
+both_detectable,40,33,7,0.825

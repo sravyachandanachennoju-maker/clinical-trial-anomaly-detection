@@ -1,0 +1,31 @@
+check,passed,detail
+Rule-Based: confusion-matrix total,True,600
+Rule-Based: precision,True,"stored=0.909090909091, calc=0.909090909091"
+Rule-Based: recall,True,"stored=0.666666666667, calc=0.666666666667"
+Rule-Based: specificity,True,"stored=0.996491228070, calc=0.996491228070"
+Rule-Based: F1,True,"stored=0.769230769231, calc=0.769230769231"
+Isolation Forest: confusion-matrix total,True,600
+Isolation Forest: precision,True,"stored=0.333333333333, calc=0.333333333333"
+Isolation Forest: recall,True,"stored=0.466666666667, calc=0.466666666667"
+Isolation Forest: specificity,True,"stored=0.950877192982, calc=0.950877192982"
+Isolation Forest: F1,True,"stored=0.388888888889, calc=0.388888888889"
+Category anomaly total,True,30
+Detection overlap total,True,600
+Overlap ground-truth anomaly total,True,30
+Evaluation category count: rule_detectable,True,12
+Evaluation category count: ml_multivariate,True,10
+Evaluation category count: both_detectable,True,8
+Evaluation category count: normal,True,570
+Primary prediction join size,True,600
+Overlap category: both_methods_detected,True,"calc=8, stored=8"
+Overlap category: rule_based_only,True,"calc=14, stored=14"
+Overlap category: isolation_forest_only,True,"calc=34, stored=34"
+Overlap category: neither,True,"calc=544, stored=544"
+Rule-Based: independent TP,True,"calc=20, stored=20"
+Rule-Based: independent FP,True,"calc=2, stored=2"
+Rule-Based: independent TN,True,"calc=568, stored=568"
+Rule-Based: independent FN,True,"calc=10, stored=10"
+Isolation Forest: independent TP,True,"calc=14, stored=14"
+Isolation Forest: independent FP,True,"calc=28, stored=28"
+Isolation Forest: independent TN,True,"calc=542, stored=542"
+Isolation Forest: independent FN,True,"calc=16, stored=16"

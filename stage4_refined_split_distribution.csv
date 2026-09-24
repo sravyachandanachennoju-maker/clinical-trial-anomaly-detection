@@ -1,0 +1,9 @@
+split,category,count,proportion
+train,normal,2280,0.95
+train,rule_detectable,48,0.02
+train,ml_multivariate,40,0.016666666666666666
+train,both_detectable,32,0.013333333333333334
+evaluation,normal,570,0.95
+evaluation,rule_detectable,12,0.02
+evaluation,ml_multivariate,10,0.016666666666666666
+evaluation,both_detectable,8,0.013333333333333334

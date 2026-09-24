@@ -1,0 +1,5 @@
+Category,Records
+both_methods_detected,8
+rule_based_only,14
+isolation_forest_only,34
+neither,544
